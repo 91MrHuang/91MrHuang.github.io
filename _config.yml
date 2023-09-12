@@ -4,8 +4,8 @@ theme: jekyll-theme-minimal
 title: Chenfeng Huang's Portfolio
 email: chengfengeric@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Chenfeng Huang's personal portfolio and blog. 
-baseurl: "" # the subpath of your site, e.g. /blog. Leave empty if you're hosting at the root.
+  Chenfeng Huang's personal portfolio and blog. 
+
 
 plugins:
   - jekyll-remote-theme 
