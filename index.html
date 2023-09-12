@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chenfeng Huang</title>
     <style>
+        /* Base styles */
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f4f4f4, #e9e9e9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
         .container {
@@ -17,23 +23,38 @@
             margin: auto;
             background: #fff;
             padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1.5s forwards;
         }
 
-        h1 {
+        h1, h2 {
             color: #333;
         }
 
         a {
             text-decoration: none;
             color: #0076d6;
+            transition: color 0.3s ease, transform 0.3s ease;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #ff4500;
+            transform: scale(1.05);
         }
 
         .social-media {
             margin-top: 20px;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
@@ -44,18 +65,19 @@
         <h1>Welcome to Chenfeng Huang's GitHub Page</h1>
         <p>Hello! I'm Chenfeng Huang. Here's a little bit about me and the projects I'm working on. You can also find links to my social media and GitHub repositories below.</p>
         
-        <h2>My Projects</h2>
-        <!-- List of projects can go here -->
-        <p><a href="#">Project 1</a></p>
-        <p><a href="#">Project 2</a></p>
-        <p><a href="#">Project 3</a></p>
+        <h2>Publication</h2>
+        <p><a href="https://ieeexplore.ieee.org/document/9725102">IEEE - An interactive prediction system of breast cancer based on ResNet50, chatbot and PyQt</a></p>
+
+        <h2>Projects</h2>
+        <!-- List of projects-->
+        <p><a href="https://github.com/91MrHuang/firebase_emulation_citibike">Firebase Emulation</a></p>
+        <p><a href="https://github.com/91MrHuang/ABSA">Aspect-based Sentiment Analysis</a></p>
         
         <h2>Contact & Social Media</h2>
         <div class="social-media">
-            <!-- You can link your actual social media accounts here -->
-            <p><strong>GitHub:</strong> <a href="https://github.com/username">username</a></p> <!-- Replace 'username' with actual GitHub username -->
-            <p><strong>LinkedIn:</strong> <a href="#">Chenfeng Huang</a></p>
-            <p><strong>Twitter:</strong> <a href="#">@chenfenghuang</a></p> <!-- Replace with actual Twitter handle -->
+            <!--social media accounts-->
+            <p><strong>GitHub:</strong> <a href="https://github.com/91MrHuang">91MrHuang</a></p> 
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chenfeng-huang-941737176/">Chenfeng Huang</a></p>
         </div>
     </div>
 
