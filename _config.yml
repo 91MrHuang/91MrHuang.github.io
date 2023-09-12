@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog. Leave empty if you're hostin
 url: "http://chenfenghuang.info" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-remote-theme 
 
 
 author:
