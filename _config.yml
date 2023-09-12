@@ -1,16 +1,18 @@
+remote_theme: pages-themes/minimal@v0.2.0
+
 # Site settings
 title: Chenfeng Huang's Portfolio
-email: your_email@example.com
+email: chengfengeric@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is Chenfeng Huang's personal portfolio and blog. 
 baseurl: "" # the subpath of your site, e.g. /blog. Leave empty if you're hosting at the root.
-url: "https://91MrHuang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://chenfenghuang.info" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing. 
 # The following items will not be processed, by default. Create a custom list to override the default setting.
@@ -25,8 +27,6 @@ exclude:
 
 author:
   name: Chenfeng Huang
-  email: your_email@example.com
+  email: chengfengeric@gmail.com
 
-# Minima theme settings
-minima:
-  skin: default # default or solarized
+
