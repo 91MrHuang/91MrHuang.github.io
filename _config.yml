@@ -6,7 +6,7 @@ email: chengfengeric@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   personal page and blogs. 
 
-
+logo: imgs/selfie.jpg
 plugins:
   - jekyll-remote-theme 
 
