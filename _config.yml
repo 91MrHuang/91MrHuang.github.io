@@ -1,9 +1,10 @@
 theme: jekyll-theme-minimal
 
 # Site settings
-title: Chenfeng Huang's Portfolio
+title: Chenfeng Huang
 email: chengfengeric@gmail.com
-
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal Portfolio & Blogs
 logo: imgs/selfie.jpg
 plugins:
   - jekyll-remote-theme 
